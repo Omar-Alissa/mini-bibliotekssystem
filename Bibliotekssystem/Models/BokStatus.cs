@@ -1,7 +1,8 @@
-namespace Bibliotekssystem.Models;
-
-pubilc enum BokStatus
+namespace Bibliotekssystem.Models
 {
-	Ledig,
-	Utlånad
+    public enum BokStatus
+    {
+        Ledig,
+        Utlånad
+    }
 }
