@@ -40,9 +40,9 @@ namespace Bibliotekssystem.Models
         }
 
         // alla användare kan söka böcker
-        public List<Bok> SökBöcker(Bibliotek bibliotek, string sökord)
+      /*  public List<Bok> SökBöcker(Bibliotek bibliotek, string sökord)
         {
             return bibliotek.SökBöcker(sökord);
         }
     }
-}
+} */ 

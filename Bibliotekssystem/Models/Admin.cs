@@ -22,9 +22,9 @@ namespace Bibliotekssystem.Models
         }
 
         // bara admin kan ta bort böcker
-        public void TaBortBok(Bibliotek bibliotek, Bok bok)
+     /*   public void TaBortBok(Bibliotek bibliotek, Bok bok)
         {
             bibliotek.TaBortBok(bok);
         }
     }
-}
+} */
