@@ -26,12 +26,10 @@ namespace Bibliotekssystem.Models
         {
             bok.LämnaTillbaka();
         }
-        // TODO: aktivera när klassen Bibliotek finns
         // visar bara böcker som denna låntagare har lånat
-        /*  public List<Bok> HämtaMinaLån(Bibliotek bibliotek)
+          public List<Bok> HämtaMinaLån(Bibliotek bibliotek)
           {
               return bibliotek.HämtaLånadeBöcker(Användarnamn);
           }
-        */
     }
 } 
