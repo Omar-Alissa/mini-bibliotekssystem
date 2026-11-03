@@ -38,11 +38,12 @@ namespace Bibliotekssystem.Models
         {
             return Lösenord == lösenord;
         }
-
+        // TODO: aktivera när klassen Bibliotek finns
         // alla användare kan söka böcker
-      /*  public List<Bok> SökBöcker(Bibliotek bibliotek, string sökord)
-        {
-            return bibliotek.SökBöcker(sökord);
-        }
+        /*  public List<Bok> SökBöcker(Bibliotek bibliotek, string sökord)
+          {
+              return bibliotek.SökBöcker(sökord);
+          }
+        */
     }
-} */ 
+}

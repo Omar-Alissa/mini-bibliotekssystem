@@ -14,17 +14,17 @@ namespace Bibliotekssystem.Models
         public Admin(string användarnamn, string lösenord) : base(användarnamn, lösenord)
         {
         }
-
+        // TODO: aktivera när klassen Bibliotek finns
         // bara admin kan lägga till böcker
-        public bool LäggTillBok(Bibliotek bibliotek, string titel, string författare)
-        {
-            return bibliotek.LäggTillBok(titel, författare);
-        }
+        /*  public bool LäggTillBok(Bibliotek bibliotek, string titel, string författare)
+          {
+              return bibliotek.LäggTillBok(titel, författare);
+          }
 
-        // bara admin kan ta bort böcker
-     /*   public void TaBortBok(Bibliotek bibliotek, Bok bok)
-        {
-            bibliotek.TaBortBok(bok);
-        }
+          // bara admin kan ta bort böcker
+          public void TaBortBok(Bibliotek bibliotek, Bok bok)
+          {
+              bibliotek.TaBortBok(bok);
+          }*/
     }
-} */
+}
