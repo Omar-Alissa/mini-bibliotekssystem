@@ -1,5 +1,11 @@
+using System.Text.Json.Serialization;
 namespace Bibliotekssystem.Models
 {
+    // behövs för att json ska veta om det är admin eller låntagare
+    [JsonPolymorphic(TypeDiscriminatorPropertyName = "typ")]
+    [JsonDerivedType(typeof(Admin), "admin")]
+    [JsonDerivedType(typeof(Låntagare), "låntagare")]
+
     public abstract class Person
     {
         // användarens namn och lösenord
